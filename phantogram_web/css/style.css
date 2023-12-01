@@ -1,0 +1,541 @@
+/* Reset de estilos e configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilizando cabeçalhos e títulos */
+  h1, h2, h3 {
+    color: #fff;
+  }
+  
+  /* Estilo para caixas arredondadas */
+  .rounded-box {
+    border-radius: 15px;
+    background-color: #404040;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Estilos para a página de música */
+  .music-page {
+    /* Estilos específicos para a página de música */
+  }
+  
+  /* Estilos para o cabeçalho e menu de navegação */
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilos para centralizar e reduzir a largura da página About */
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .band-info {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .band-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px; /* Aumenta a borda arredondada */
+    margin-right: 20px;
+  }
+  /* ... (seu código CSS existente) ... */
+
+/* Estilos para o formulário de contato */
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .rounded-box {
+    border-radius: 15px;
+    background-color: #404040;
+    padding: 40px;
+    margin: 20px;
+    width: 80%; /* Ajusta a largura do formulário */
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+    text-align: center;
+    /* Centraliza horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #666;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8a8a8a;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #707070;
+  }
+
+  /* ... (seu código CSS existente) ... */
+
+/* Estilo para o rodapé */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Garante que os elementos se ajustem quando a tela for reduzida */
+    padding: 40px; /* Adicione um espaço ao redor do rodapé */
+    background-color: #222; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilos para as seções do rodapé */
+  .footer > div {
+    flex: 1;
+    margin: 10px; /* Espaçamento entre as seções do rodapé */
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+.header {
+    background-color: #333; /* Cor de fundo escura */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  /* Estilos para o logo */
+  .logo img {
+    max-width: 150px; /* Ajuste o tamanho do logo conforme necessário */
+  }
+  
+  /* Estilos para o menu de navegação */
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilização dos links do menu */
+  .menu a:hover {
+    color: #bbb; /* Cor ao passar o mouse */
+  }
+  
+  
+  /* Estilos para o conteúdo principal */
+  .index-content {
+    padding: 20px;
+  }
+  
+  /* Estilo para o banner ou slider */
+  .banner {
+    /* Estilos para o banner ou slider */
+  }
+  
+  /* Estilos para as músicas em destaque */
+  .highlighted-songs {
+    /* Estilos para as músicas em destaque */
+  }
+  
+  /* Estilo para a seção 'Sobre a Banda' */
+  .about-band {
+    /* Estilos para a seção 'Sobre a Banda' */
+  }
+  
+  /* Estilos para a seção de redes sociais */
+  .social-media {
+    /* Estilos para a seção de redes sociais */
+  }
+  
+  /* Estilos para a seção de vídeo ou galeria de fotos */
+  .video-gallery {
+    /* Estilos para a seção de vídeo ou galeria de fotos */
+  }
+  
+  /* Estilos para a seção de newsletter */
+  .newsletter {
+    /* Estilos para a seção de newsletter */
+  }
+  
+  /* Estilos para a seção de calendário de shows/tour */
+  .tour-dates {
+    /* Estilos para a seção de calendário de shows/tour */
+  }
+  
+  /* Estilos para a seção de contato */
+  .contact {
+    /* Estilos para a seção de contato */
+  }
+  
+  /* Estilos para o rodapé */
+  .footer {
+    /* Estilos para o rodapé */
+  }
+  /* Estilos para a seção de vídeo ou galeria de fotos */
+.video-gallery {
+    background-color: #333; /* Cor de fundo escura */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  .video-gallery h2 {
+    color: #fff; /* Cor do título */
+  }
+  
+  /* Estilo para o vídeo (iframe) */
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 para o vídeo */
+    overflow: hidden;
+    border-radius: 8px; /* Borda arredondada */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  /* Estilo para a galeria de imagens */
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as imagens */
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .image-gallery img {
+    width: 200px; /* Largura das imagens */
+    height: auto;
+    border-radius: 8px; /* Borda arredondada */
+  }
+  /* Estilos para o footer */
+.footer {
+    position: relative;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+ /* Estilos para a galeria de fotos */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+  }
+  
+  .image-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 300px; /* Largura fixa para as imagens */
+    height: 200px; /* Altura fixa para as imagens */
+  }
+  
+  .image-item img {
+    width: 100%; /* Garante que as imagens ocupem todo o espaço disponível */
+    height: 100%; /* Garante que as imagens ocupem todo o espaço disponível */
+    object-fit: cover; /* Mantém a proporção da imagem */
+  }
+  
+  .image-item:hover {
+    transform: scale(1.1); /* Zoom suave ao passar o mouse */
+  }
+  
+  /* Estilos para o ícone "+" */
+  .plus-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Oculta o ícone "+" inicialmente */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-item:hover .plus-icon {
+    opacity: 1; /* Mostra o ícone "+" ao passar o mouse */
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    background-color: #333; /* Cor de fundo escura */
+    transition: background-color 0.3s ease; /* Adiciona transição de cor de fundo */
+  }
+  
+  .menu a:hover {
+    background-color: #555; /* Cor de fundo mais escura ao passar o mouse */
+  }
+/* Estilos CSS para organizar as capas dos álbuns lado a lado */
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .album-item {
+    flex: 1 1 200px;
+    max-width: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .album-item img {
+    width: 100%;
+  }
+  
+  .album-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .album-details {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .album-item:hover .album-details {
+    opacity: 1;
+  }
+  /* Seletor específico para a página music.html */
+body.music-page {
+    margin: 0;
+    padding: 0;
+    background-image: url('/phantogram_web/img/2015img.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Ajuste o valor do desfoque conforme desejado */
+  }
+  
+  /* Estilo para o conteúdo que aparecerá acima do fundo desfocado */
+  .music-page .main-content {
+    position: relative;
+    z-index: 1;
+    /* Outros estilos para o conteúdo principal */
+  }
+  
+  .music-page .footer {
+    position: relative;
+    margin-top: 50px;
+    /* Outros estilos para o footer */
+  }
+ /* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    /* Estilos para o conteúdo principal */
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    /* Estilos para a imagem */
+  }
+  
+  .footer {
+    /* Estilos para o footer */
+  }
+  .image-container {
+    padding: 20px;
+  }
+  
+
+/* ... seus estilos anteriores ... */
+.image-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Adiciona borda arredondada */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+    opacity: 0.8; /* Define a opacidade */
+    transition: filter 0.3s ease-in-out; /* Adiciona transição suave */
+  
+    /* Aplica um filtro de escala de cinza e aumenta o contraste */
+    filter: grayscale(50%) contrast(120%);
+  }
+  
+  .image-container:hover img {
+    filter: blur(5px) grayscale(50%) contrast(120%); /* Adiciona desfoque ao passar o mouse */
+  }
+  
+  /* Estiliza a frase */
+  .image-container::before {
+    content: "Desfrute do som único e envolvente da Phantogram";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif; /* Adicione a fonte desejada */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Adiciona transição suave */
+  }
+  
+  .image-container:hover::before {
+    opacity: 1; /* Mostra a frase ao passar o mouse */
+  }
+  
